@@ -1,0 +1,4 @@
+**/chapter-*/*.s?
+**/chapter-*/*.o?
+**/chapter-*/*.exe
+**/chapter-*/*.bin
