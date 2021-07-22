@@ -1,3 +1,4 @@
+.vscode
 **/chapter-*/*.s?
 **/chapter-*/*.o?
 **/chapter-*/*.exe
