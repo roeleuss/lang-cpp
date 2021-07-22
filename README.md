@@ -37,7 +37,7 @@ ____
 Comando para instalar gcc no Ubuntu 20-04.
 
 ```bash
-sudo apt-get install -y gcc
+sudo apt-get install -y gcc g++
 ```
 
 **Compilando no Linux:**
