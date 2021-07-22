@@ -22,22 +22,22 @@ int main() {
     char32_t        o = L'本';      //c11 (utf-32)
     string          p = "cadeia de caracteres";
 
-    cout << "short         :  " << sizeof(short)            << " bytes: " << a << endl;
-    cout << "short int     :  " << sizeof(short int)        << " bytes: " << b << endl;
-    cout << "int           :  " << sizeof(int)              << " bytes: " << c << endl;
-    cout << "long          :  " << sizeof(long)             << " bytes: " << d << endl;
-    cout << "long int      :  " << sizeof(long int)         << " bytes: " << e << endl;
-    cout << "long long     :  " << sizeof(long long)        << " bytes: " << f << endl;
-    cout << "long long int :  " << sizeof(long long int)    << " bytes: " << g << endl;
-    cout << "float         :  " << sizeof(float)            << " bytes: " << h << endl;
-    cout << "double        :  " << sizeof(double)           << " bytes: " << i << endl;
-    cout << "long double   : "  << sizeof(long double)      << " bytes: " << j << endl;
-    cout << "bool          :  " << sizeof(bool)             << " bytes: " << k << endl;
-    cout << "char          :  " << sizeof(char)             << " bytes: " << l << endl;
-    cout << "wchar_t       :  " << sizeof(wchar_t)          << " bytes: " << m << endl;
-    cout << "char_16t      :  " << sizeof(char16_t)         << " bytes: " << n << endl;
-    cout << "char_32t      :  " << sizeof(char32_t)         << " bytes: " << o << endl;
-    cout << "string        : "  << sizeof(string)           << " bytes: " << p << endl;
+    cout << "short         : 1    :  " << sizeof(short)            << " bytes: " << a << endl;
+    cout << "short int     : 1    :  " << sizeof(short int)        << " bytes: " << b << endl;
+    cout << "int           : 1    :  " << sizeof(int)              << " bytes: " << c << endl;
+    cout << "long          : 1L   :  " << sizeof(long)             << " bytes: " << d << endl;
+    cout << "long int      : 1L   :  " << sizeof(long int)         << " bytes: " << e << endl;
+    cout << "long long     : 1LL  :  " << sizeof(long long)        << " bytes: " << f << endl;
+    cout << "long long int : 1LL  :  " << sizeof(long long int)    << " bytes: " << g << endl;
+    cout << "float         : 1.0f :  " << sizeof(float)            << " bytes: " << h << endl;
+    cout << "double        : 1.0  :  " << sizeof(double)           << " bytes: " << i << endl;
+    cout << "long double   : 1.0  : "  << sizeof(long double)      << " bytes: " << j << endl;
+    cout << "bool          : true :  " << sizeof(bool)             << " bytes: " << k << endl;
+    cout << "char          : 'c'  :  " << sizeof(char)             << " bytes: " << l << endl;
+    cout << "wchar_t       : L'c' :  " << sizeof(wchar_t)          << " bytes: " << m << endl;
+    cout << "char_16t      : u'c' :  " << sizeof(char16_t)         << " bytes: " << n << endl;
+    cout << "char_32t      : U'c' :  " << sizeof(char32_t)         << " bytes: " << o << endl;
+    cout << "string        : \"ab\" : "  << sizeof(string)         << " bytes: " << p << endl;
 
     return 0;
 }

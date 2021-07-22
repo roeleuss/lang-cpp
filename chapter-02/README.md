@@ -1,6 +1,6 @@
 # Diferenças entre ambientes
 
-Note a diferença de quantidade de bytes `long` e `long int` entre **Windows** e **Linux**.
+Note a diferença de quantidade de bytes dos `long`, `long int` e `wchar_t` entre **Windows** e **Linux**.
 
 ## Windows
 
