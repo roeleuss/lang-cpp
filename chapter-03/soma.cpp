@@ -13,6 +13,7 @@ int main() {
     cout << "int b = 20;"       << endl;
     cout << "float c = 15.8;"   << endl;
     cout << "float d = 24.3;"   << endl;
+    cout << "int e = -10;"      << endl;
     cout << endl;
 
     cout << "INTEIRO"           << endl;
