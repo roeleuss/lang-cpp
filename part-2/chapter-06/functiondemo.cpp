@@ -3,9 +3,9 @@
 using namespace std;
 
 void displayExplanation(void) {
-    cout << "This program sums multiple series of numbers.\n" 
-         << "- Terminate each sequence by entering a negative number.\n"
-         << "- Terminate the series if sums equals zero.\n" 
+    cout << "This program sums multiple series of numbers." << endl
+         << " - Terminate each sequence by entering a negative number." << endl
+         << " - Terminate the series if sums equals zero." << endl
          << endl;
  }
 
