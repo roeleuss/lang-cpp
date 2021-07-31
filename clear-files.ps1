@@ -1,4 +1,4 @@
-remove-item **/*.bin
-remove-item **/*.exe
-remove-item **/*.o?
-remove-item **/*.s?
+get-childitem -recurse . *.bin | remove-item
+get-childitem -recurse . *.exe | remove-item
+get-childitem -recurse . *.o? | remove-item
+get-childitem -recurse . *.s? | remove-item
