@@ -1,4 +1,4 @@
-get-childitem -recurse ./part* *.bin | remove-item
-get-childitem -recurse ./part* *.exe | remove-item
-get-childitem -recurse ./part* *.o? | remove-item
-get-childitem -recurse ./part* *.s? | remove-item
+get-childitem -recurse ./src *.bin | remove-item
+get-childitem -recurse ./src *.exe | remove-item
+get-childitem -recurse ./src *.o? | remove-item
+get-childitem -recurse ./src *.s? | remove-item
